@@ -1,5 +1,6 @@
 # wasm-pong-rs
-WebAssembly Pong in Rust
+
+WASM-Pong-Rs is Pong-Game which uses Sounds and Simple Graphics. It is using WebAssembly and is written in Rust. 
 
 ## Before starting pong
 
@@ -16,4 +17,8 @@ The easiest way for compiling this game, is by using [wasm-pack](https://github.
 Start a HTTP Server, for example with python by using a short python-script: `python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'`
 
 Navigate to localhost:8000 and you can play a round Pong against you or against a friend, it´s your choice! :D
+
+## Controls
+
+The Game is made for 2 Players. The Left Player is controling by `a` for up and `z` for down. The Right Player uses the Arrow Keys for up and down.
 
