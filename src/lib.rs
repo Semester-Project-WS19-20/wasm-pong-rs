@@ -502,11 +502,91 @@ fn play_audio(sample: &[f32]) {
 }
 
 fn set_score(left: u32, right: u32) {
+    
+    let mut leftletters = "";
+    let mut rightletters = "";
+    
+
+    let hfu_vec = vec!["0".to_string(), "K".to_string(), "Ko".to_string(), "Kom".to_string(), "Komm".to_string(), "Komm ".to_string(), "Komm z".to_string(), "Komm zu".to_string(), "Komm zur".to_string(), "Komm zur ".to_string(),"Komm zur H".to_string(), "Komm zur HF".to_string(), "Komm zur HFU".to_string()];
+    
+    if left==0 {
+	leftletters = "0";
+    } else if left == 1 {
+	leftletters = "K";
+    } else if left == 2 {
+	leftletters = "Ko";
+    } else if left == 3 {
+	leftletters = "Kom";
+    } else if left == 4 { 
+        leftletters = "Komm";
+    } else if left == 5 { 
+        leftletters = "Komm ";
+    } else if left == 6 { 
+        leftletters = "Komm z";
+    } else if left == 7 { 
+        leftletters = "Komm zu";
+    } else if left == 8 { 
+        leftletters = "Komm zur";
+    } else if left == 9 { 
+        leftletters = "Komm zur ";
+    } else if left == 10 { 
+        leftletters = "Komm zur H";
+    } else if left == 11 { 
+        leftletters = "Komm zur HF";
+    } else if left == 12 { 
+        leftletters = "Komm zur HFU";
+    } else if left == 13 {
+        leftletters = "Komm zur HFU!";
+    } else if left == 14 {
+        leftletters = "Komm zur HFU!!";
+    } else if left == 15 {
+        leftletters = "Komm zur HFU!!!"; 
+    } else if left > 15 {
+	leftletters = "Komm zur HFU!!!!";
+	}
+
+    if right==0 {
+        rightletters = "0";
+    } else if right == 1 {
+        rightletters = "K";
+    } else if right == 2 {
+        rightletters = "Ko";
+    } else if right == 3 {
+        rightletters = "Kom";
+    } else if right == 4 {
+        rightletters = "Komm";
+    } else if right == 5 {
+        rightletters = "Komm ";
+    } else if right == 6 {
+        rightletters = "Komm z";
+    } else if right == 7 {
+        rightletters = "Komm zu";
+    } else if right == 8 {
+        rightletters = "Komm zur";
+    } else if right == 9 {
+        rightletters = "Komm zur ";
+    } else if right == 10 {
+        rightletters = "Komm zur H";
+    } else if right == 11 {
+        rightletters = "Komm zur HF";
+    } else if right == 12 {
+        rightletters = "Komm zur HFU";
+    } else if right == 13 {
+        rightletters = "Komm zur HFU!";
+    } else if right == 14 {
+        rightletters = "Komm zur HFU!!";
+    } else if right == 15 {
+        rightletters = "Komm zur HFU!!!";
+    } else if right > 15 {
+        rightletters = "Komm zur HFU!!!!";
+    }
+    	    
+		 
     let document = web_sys::window().unwrap().document().unwrap();
     document.get_element_by_id("score_left").unwrap()
-        .set_text_content(Some(&left.to_string()));
+        .set_text_content(Some(&leftletters.to_string()));
     document.get_element_by_id("score_right").unwrap()
-        .set_text_content(Some(&right.to_string()));
+        .set_text_content(Some(&rightletters.to_string()));
 }
 
 fn create_sparks(ps: &mut ParticleSystem, x: f32, y: f32, dx: f32, dy: f32) {
