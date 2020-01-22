@@ -2,6 +2,8 @@
 
 WASM-Pong-Rs is Pong-Game which uses Sounds and Simple Graphics. It is using WebAssembly and is written in Rust. 
 
+This Game was originally made by [bzar](https://github.com/bzar).
+
 ## Before starting pong
 
 You need Rust on your computer, to run this Pong game. To install Rust on a Linux, you can use the command `curl --proto '=https' --tlsvl1.2 -sSf https://sh.rustup.rs | sh`
