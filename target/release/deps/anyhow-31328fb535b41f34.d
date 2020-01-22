@@ -1,0 +1,15 @@
+/home/erik/wasm-pong-rs/target/release/deps/anyhow-31328fb535b41f34.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/backtrace.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/chain.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/context.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/fmt.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/kind.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/macros.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/wrapper.rs
+
+/home/erik/wasm-pong-rs/target/release/deps/libanyhow-31328fb535b41f34.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/backtrace.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/chain.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/context.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/fmt.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/kind.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/macros.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/wrapper.rs
+
+/home/erik/wasm-pong-rs/target/release/deps/anyhow-31328fb535b41f34.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/backtrace.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/chain.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/context.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/error.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/fmt.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/kind.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/macros.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/wrapper.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/backtrace.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/chain.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/context.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/error.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/fmt.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/kind.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/macros.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/anyhow-1.0.26/src/wrapper.rs:
