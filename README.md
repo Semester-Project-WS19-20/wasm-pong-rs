@@ -1,6 +1,6 @@
 # wasm-pong-rs
 
-WASM-Pong-Rs is Pong-Game which uses Sounds and Simple Graphics. It is using WebAssembly and is written in Rust. 
+WASM-Pong-Rs is a Pong-Game which uses Sounds and Simple Graphics. It is using WebAssembly and is written in Rust. 
 
 This Game was originally made by [bzar](https://github.com/bzar).
 
