@@ -507,8 +507,7 @@ fn set_score(left: u32, right: u32) {
     let mut rightletters = "";
     
 
-    let hfu_vec = vec!["0".to_string(), "K".to_string(), "Ko".to_string(), "Kom".to_string(), "Komm".to_string(), "Komm ".to_string(), "Komm z".to_string(), "Komm zu".to_string(), "Komm zur".to_string(), "Komm zur ".to_string(),"Komm zur H".to_string(), "Komm zur HF".to_string(), "Komm zur HFU".to_string()];
-    
+     
     if left==0 {
 	leftletters = "0";
     } else if left == 1 {
